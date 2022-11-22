@@ -13,7 +13,7 @@ import moment from "moment"
         props: ['text', 'dataDate'],
         computed: {
             timeStamp: function() {
-                return moment(this.dataDate).format('Do MMMM YYY, h:mm:s a')
+                return moment(this.dataDate).format('Do MMMM YYYY, h:mm:ss a')
             }
         }
     }
