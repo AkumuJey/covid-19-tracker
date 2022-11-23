@@ -3,7 +3,7 @@
     <div class="grid md:grid-col-2 gap-4 my-4 mx-10">
         <div class="shadow:md bg-slate-300 text-center rounded">
             <h3 class="text-3xl text-purple-900 font-bold mb-4">
-                Covid Cases
+                Covid-19 Cases
             </h3>
             <div class="text-2xl mb-4">
                 <span class="font-bold">New:</span>
@@ -30,21 +30,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="grid md:grid-col-2 gap-4 mb-4">
-        <div class="shadow:md bg-slate-800 text-center rounded">
-            <h3 class="text-3xl text-purple-600 font-bold mb-4">
-                Recovered Patients
-            </h3>
-            <div class="text-2xl mb-4">
-                <span class="font-bold">New:</span>
-                {{ numberWithCommas(stats.NewRecovered) }}
-            </div>
-            <div class="text-2xl mb-4">
-                <span class="font-bold">Total:</span>
-                {{ numberWithCommas(stats.TotalRecovered) }}
-            </div>
-        </div>
-    </div> -->
  </div>
 </template>
 

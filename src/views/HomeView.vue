@@ -12,7 +12,7 @@
     <div class="text-grey-500 text-3xl mt-10 mb-6">
       Fetching data
     </div>
-    <img :src="loadingImage" class="w-24 mx-auto" alt="">
+    <img :src="loadingImage" class="w-24 mx-auto" alt="Please be patient">
   </main>
 </template>
 
