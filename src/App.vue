@@ -2,8 +2,8 @@
   <Header />
   <div class="container text-center">
     <div>
-      <router-link to="/" class="p-3 mx-4 rounded bg-black text-center text-3xl text-white">Our World in Data</router-link>
-    <router-link :to="{ name: 'corona' }" class="p-3 mx-4 rounded bg-black text-center text-3xl text-white">Covid-19</router-link>
+      <router-link to="/" class="p-3 mx-4 rounded-2xl bg-black text-center text-3xl text-white hover:bg-slate-800">Our World in Data</router-link>
+      <router-link :to="{ name: 'corona' }" class="p-3 mx-4 rounded-2xl bg-black text-center text-3xl text-white hover:bg-slate-800">Covid-19</router-link>
     </div>
     <router-view/>
   </div>
